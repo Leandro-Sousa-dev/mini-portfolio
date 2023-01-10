@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    font-family: 'VT323', monospace;
+    background: url(../imagens/fundo-site.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.cartao {
+    background-color: #000;
+    position: relative;
+    width: 370px;
+    border: 2px solid #e126d9;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.cartao .minhas-infos {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.nome {
+    font-size: 26px;
+    color: #fdfdfd;
+}
+
+.cargo {
+    font-size: 20px;
+    color: #b8bbc5;
+}
+
+.minhas-infos img {
+    border: 4px solid rgba(69, 110, 165, 0.4);
+    border-radius: 50px;
+    height: 96px;
+    width: 96px;
+}
+
+.cartao .conteudo {
+    background-color: #010101;
+    margin-top: 15px;
+}
+
+.conteudo .abas {
+    position: relative;
+    display: flex;
+}
+
+.abas .aba {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: bacground-color 0.2s ease-in-out;
+}
+
+.aba .icon {
+    width: 28px;
+}
+
+.aba .icon-sobre-mim {
+    width: 35px;
+}
+
+.info-abas {
+    background-color: #262626;
+    position: relative;
+}
+
+.cartao .abas .aba.selecionado {
+    background-color: #262626;
+}
+
+.abas .aba:hover{
+    background-color: #414141;
+}
+
+
+.aba .icon-github {
+    position: relative;
+}
+
+.aba .icon-linkedin {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 14px;
+    top: 4px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.aba .icon-curriculo {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 20px;
+    top: 9px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.cartao .abas .aba:hover .mostrar {
+    opacity: 1;
+    transition: 1.5s;
+}
+
+
+.info-abas .info {
+    min-height: 260px;
+    padding: 15px;
+    display: none;
+}
+
+.info-abas .info.selecionado {
+    color: #fdfdfd;
+    display: block;
+}
+
+.sub-titulo {
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.descricao {
+    font-size: 20px;
+    text-align: justify;
+    max-height: 180px;
+    overflow-y: auto;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+.descricao strong {
+    color: #a056e6;
+    text-shadow: 1px 1px 1px #3c0e66;
+}
+
+.descricao span {
+    color: #0cc78c;
+}
+
+.redes-sociais li  {
+    max-height: 180px;
+    overflow: auto;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.redes-sociais a {
+    display: block;
+    width: 250px;
+    padding: 10px 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+a:hover {
+    transition: 0.3s ease-in-out;
+    background-color: #ff6347;
+}
+
+.curriculo {
+    background-color: #06c185;
+}
+
+.github {
+    background-color: #351153;
+    
+}
+
+.linkedin {
+    background-color: #1d87bd;
+
+}
