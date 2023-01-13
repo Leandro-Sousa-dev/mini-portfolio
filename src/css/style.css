@@ -2,7 +2,7 @@
 
 body {
     font-family: 'VT323', monospace;
-    background: url(../imagens/fundo-site.jpg) no-repeat center;
+    background: url(../imagens/fundo-site.gif) no-repeat center;
     background-size: cover;
     display: flex;
     flex-direction: column;
