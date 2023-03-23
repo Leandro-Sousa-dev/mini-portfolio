@@ -27,7 +27,7 @@ Nesse projeto fazemos uma página com elementos como:
 
 ### Links
 
-- Link da minha soluçã: [Repositório GitHub](https://github.com/Leandro-Sousa-dev/mini-portfolio)
+- Link da minha solução: [Repositório GitHub](https://github.com/Leandro-Sousa-dev/mini-portfolio)
 - Link do site hospedado: [Site hospedado Github pages](https://leandro-sousa-dev.github.io/mini-portfolio/)
 
 ## Meu processo
